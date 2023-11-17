@@ -42,4 +42,5 @@ def print_grid_label(gridx,gridy,x,y,s,text_size=30):
     canvas.postscript(file="my_drawing.eps")
     t.done()
 
-#print_grid_label(100,80,10,10,"螺丝A",text_size=25) #其中前两个为画布长宽，后两个为行列数
+#print_grid_label(100,80,10,10,"螺丝A",text_size=25)
+#其中前两个为画布长宽，后两个为行列数
