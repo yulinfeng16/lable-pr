@@ -37,7 +37,7 @@ def print_grid_label(gridx,gridy,x,y,s,text_size=30):
     t.color('white')
     t.forward(1)
     t.pu()
-    # 将Turtle图形转换为PNG图像并保存
+    # 将Turtle图形转换为EPS图像并保存
     canvas = t.getscreen().getcanvas()
     canvas.postscript(file="my_drawing.eps")
     t.done()
